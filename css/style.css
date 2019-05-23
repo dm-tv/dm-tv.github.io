@@ -1,0 +1,1665 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+ul,
+ol {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.background-video {
+    position: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="submit"],
+a,
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+
+/*-- banner --*/
+
+.center-container {
+    padding: 2em 0 48em;
+    background: rgba(0, 0, 0, 0.44);
+}
+
+.w3_agile_header_left {
+    float: left;
+}
+
+.agile_header_right {
+    float: right;
+    margin-top: .7em;
+}
+
+.agile_header_right ul li {
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+}
+
+.agile_header_right ul li i {
+    padding-right: 1.5em;
+    color: #0accff;
+}
+
+.agile_header_right ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.agile_header_right ul li a:hover {
+    color: #0accff;
+}
+
+.agile_header_right ul li a:before,
+.agile_header_right ul li a:after {
+    display: none;
+}
+
+.agile_header_right ul li:last-child {
+    margin-left: 3em;
+}
+
+.w3_agileits_logo {
+    float: left;
+}
+
+.w3_agileits_logo h1 a {
+    font-size: 1.2em;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.w3_agileits_logo h1 a span {
+    display: block;
+    font-size: .3em;
+    font-weight: 600;
+    color: #0accff;
+    position: relative;
+    letter-spacing: 3px;
+}
+
+.agileits_w3layouts_banner_info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.agileits_w3layouts_banner_info h2 {
+    font-size: 2em;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 2em;
+}
+
+.agileits_w3layouts_banner_info p {
+    color: #fff;
+    line-height: 2em;
+    margin: 0 0 5em;
+}
+
+ul.top_agile_info_ad {
+    width: 42%;
+    margin: 1.4% auto 0;
+    float: right;
+}
+
+ul.top_agile_info_ad li {
+    list-style: none;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    letter-spacing: 1px;
+}
+
+.w3l_header_contact_details_agile {
+    float: right;
+    width: 78%;
+    text-align: left;
+}
+
+.w3_agileits_logo h1 a span {
+    font-size: 12px;
+    text-align: center;
+    color: #7aba1e;
+}
+
+.header_contact_details_agile i {
+    color: #fff;
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 1.5em;
+}
+
+.header-contact-detail-title {
+    color: #7aba1e;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+a.w3l_header_contact_details_agile-info_inner,
+.w3l_header_contact_details_agile a {
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+
+/*-- nav --*/
+
+
+/*-- menu --*/
+
+.mobile-nav-button {
+    position: fixed;
+    margin: 3em 0em 0;
+    right: 8%;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: rgba(27, 25, 25, 0.27);
+}
+
+.mobile-menu ul li {
+    list-style: none;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.mobile-menu ul li a {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    padding: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.open>ul.dropdown-menu.agile_short_dropdown {
+    display: block;
+    transform: none !important;
+    min-width: 65%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    left: 18%;
+}
+
+.open>ul.dropdown-menu.agile_short_dropdown li {
+    margin: 0 !important;
+}
+
+ul.dropdown-menu.agile_short_dropdown>li>a:hover {
+    background: none;
+}
+
+.mobile-menu ul li a:after {
+    content: '';
+    background: #7aba1e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.mobile-menu ul li a:hover,
+.mobile-menu ul li.active a {
+    color: #fff;
+}
+
+.mobile-menu ul li a:hover:after,
+.mobile-menu ul li.active a:after {
+    right: 0;
+}
+
+li.dropdown.act a.w3_icons_act {
+    background: #0e0e0e;
+    color: #fff;
+}
+
+.mobile-menu img {
+    position: absolute;
+    width: 150px;
+    display: block;
+    left: 50%;
+    top: 3rem;
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-menu--open {
+    opacity: 1;
+    right: 0%;
+}
+
+.dropdown.active.open a ul.dropdown-menu.agile_short_dropdown li a.w3_icon_1:after {
+    background: none !important;
+}
+
+
+/*-- //menu --*/
+
+
+/*-- /slider --*/
+
+.agile_banner_text_info {
+    position: absolute;
+    z-index: 999;
+    top: 26%;
+    left: 28%;
+}
+
+.agile_banner_text_info h1 {
+    color: #fff;
+    font-size: 8em;
+    letter-spacing: 4px;
+    line-height: 0.8;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(16, 16, 16, 0.57);
+}
+
+.agile_banner_text_info h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.agile_banner_text_info h1 span {
+    font-weight: 600;
+    display: block;
+    letter-spacing: 3px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px rgba(16, 16, 16, 0.57);
+}
+
+.agile_banner_text_info i {
+    font-size: 0.6em;
+    margin-bottom: 7px;
+}
+
+
+/*-- //slider --*/
+
+
+/*-- //banner --*/
+
+.wthree_head_section h2 {
+    font-size: 3.3em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+    font-weight: 800;
+}
+
+.about h4 {
+    font-size: 2em;
+    margin: 1em 0 0.5em 0;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.about_agileinfo h3 {
+    text-align: left;
+    margin-top: 2em;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #303030;
+}
+
+.about_agileinfo p {
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 1em;
+    color: #9da0af;
+    letter-spacing: 1px;
+}
+
+.services,
+.team,
+.contact-w3layouts,
+.agile_testimonials {
+    padding: 6em 0;
+}
+
+#welcome {
+    background: #0b0c11;
+    padding: 6em 0;
+}
+
+.wthree_head_section {
+    text-align: left;
+}
+
+h3.agile_tittle {
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h3.agile_tittle i {
+    font-size: 0.8em;
+    margin-bottom: 6px;
+}
+
+h3.agile_tittle span {
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-size: 18px;
+}
+
+.agile_wthree_inner_grids {
+    margin-top: 4em;
+}
+
+.agileits-button.two a,
+.agileits-button a {
+    padding: 0.8em 1em;
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    background: #1bb580;
+    border: 1px solid #1bb580;
+    border-radius: 4px;
+    margin-top: 2em;
+}
+
+.about_agileinfo {
+    padding: 0;
+}
+
+.about_agileinfo_grid_imgs img {
+    width: 100%;
+}
+
+.about_agileinfo_grid_imgs img:nth-child(2) {
+    margin-top: 1em;
+}
+
+
+/*-- //about --*/
+
+
+/*-- /modal-info--*/
+
+.modal-info h4 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.5em 0 0.5em 0;
+    color: #000;
+}
+
+.modal-info h5 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 1em 0 0.5em 0;
+    color: #1bb580;
+    letter-spacing: 2px;
+}
+
+.modal-info p {
+    line-height: 2em;
+}
+
+
+/*-- //modal-info--*/
+
+
+/*-- stats --*/
+
+.w3layouts_stats_left {
+    text-align: center;
+}
+
+.w3layouts_stats_left p {
+    font-size: 4em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0.1em 0 0.1em 0;
+}
+
+.w3layouts_stats_left h3 {
+    font-size: 1em;
+    color: #062d20;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.w3layouts_stats_left i {
+    font-size: 3em;
+    color: #fff;
+}
+
+.w3l_stats_bottom_grid_left img {
+    margin: 0 auto;
+}
+
+.stats {
+    text-align: center;
+    background: #1bb580;
+    padding: 4em 0;
+}
+
+.agile_inner_info_stats {
+    margin-top: 2em;
+}
+
+
+/*-- //stats --*/
+
+
+/*-- /skills --*/
+
+.bargrids-left {
+    margin-right: 40px;
+}
+
+.bar-grids h4 {
+    font-size: 1.6em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 1.4em;
+    /* border-bottom: 1px dashed #ffffff; */
+    padding-bottom: 0em;
+    font-weight: 600;
+}
+
+.bar-grids h4 span.glyphicon {
+    margin-right: 0.8em;
+    color: #ecb731;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 2.2em;
+    background-color: #dadde0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.prgs-w3agile-last {
+    margin-bottom: 0!important;
+}
+
+.progress-bar {
+    background-color: #0c0c0c;
+}
+
+.bar-grids h6 {
+    font-size: 1em;
+    color: #1bb580;
+    margin-bottom: 0.6em;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.bar-grids h6 span {
+    float: right;
+    font-size: 1em;
+}
+
+
+/*-- //skills --*/
+
+.skills {
+    background: url(../images/banner4.jpg)no-repeat 0px 0px;
+      background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+    min-height: 700px;
+}
+
+h3.agile_tittle.two {
+    color: #252525;
+}
+
+.bar-grids.w3-agile {
+    padding: 5em 5em;
+}
+
+.wthree_skills {
+    margin-top: 4em;
+}
+
+
+/*-- //skills --*/
+
+
+/*-- services --*/
+
+.services {
+    background: #1bb580;
+}
+
+.w3-agileits-services-left {
+    background: url(../images/banner6.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 570px;
+}
+
+.services-right-grid {
+    text-align: center;
+}
+
+.services-right-grid i.fa {
+    color: #111;
+    font-size: 2em;
+}
+
+.services-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 1.5em 0 0 0;
+    margin: 0 auto;
+}
+
+
+/* Radial In */
+
+.hvr-radial-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    background: #111;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-radial-in:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    border-radius: 100%;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-radial-in:hover,
+.hvr-radial-in:focus,
+.hvr-radial-in:active {
+    color: white;
+}
+
+.services-right-grid:hover div.hvr-radial-in:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.services-right-grid:hover i.fa {
+    color: #FFFFFF;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.services-icon-info h5 {
+    color: #2f2f2f;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 1em 0 0 0;
+    letter-spacing: 1px;
+}
+
+.services-right-grids:nth-child(2) {
+    margin: 2em 0;
+}
+
+.services-icon-info p {
+    color: #ffffff;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+}
+
+
+/*-- //services --*/
+
+
+/*-- portfolio section --*/
+
+.agile_inner_info {
+    margin-top: 3em;
+}
+
+p.sub_cap {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(154, 153, 153, 0.37);
+}
+
+.portfolio-agileinfo h3.text-center {
+    font-size: 40px;
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+.portfolio-agileinfo .portfolio-grids a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-agileinfo .portfolio-grids img.img-responsive {
+    width: 100%;
+}
+
+.portfolio-agileinfo .b-wrapper {
+    background: rgba(253, 43, 48, 0.74);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    padding: 6.5em 0 0 0;
+    transition: .5s all;
+    text-align: center;
+    display: none;
+}
+
+.portfolio-agileinfo .b-wrapper.two {
+    padding: 15.5em 0 0 0;
+}
+
+.portfolio-agileinfo .portfolio-grids a:hover .b-wrapper {
+    bottom: 0%;
+}
+
+.portfolio-agileinfo i {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    padding: 10px;
+}
+
+.portfolio-agileinfo .b-wrapper h5 {
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.portfolio-agileinfo .b-wrapper p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.portfolio-agileinfo .gallery-grids {
+    margin: 0;
+}
+
+.portfolio-agileinfo h3 {
+    color: #000;
+}
+
+.portfolio-grids {
+    padding: 0;
+}
+
+.portfolio-grids_left {
+    padding: 0;
+}
+
+.portfolio-grids img {
+    width: 100%;
+}
+
+.portfolio-grid_left {
+    padding: 0;
+}
+
+#portfolio {
+    padding-top: 3em;
+}
+
+
+/*-- /portfolio section --*/
+
+
+/*-- /contact --*/
+
+.contact_img_agile {
+    background: url(../images/contact.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 800px;
+}
+
+.contact-form.agile_inner_grids {
+    padding: 5em 5em;
+}
+
+.contact-form h4 {
+    font-size: 2.1em;
+    color: #262c38;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 800;
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+
+.contact-form h4:after {
+    border-top: 2px solid #efb312;
+    display: block;
+    width: 81px;
+    content: "";
+    margin: 8px auto 0;
+}
+
+.contact-form h4 span {
+    color: #0ac876;
+}
+
+.styled-input.agile-styled-input-top {
+    margin-top: 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    font-size: 1em;
+    color: #26272b;
+    padding: 0.5em 1em;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #b9b9b9;
+    background: none;
+    -webkit-appearance: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.contact-form.agile_inner_grids form {
+    margin-top: 4em;
+}
+
+
+/*-- input-effect --*/
+
+.styled-input input:focus~label,
+.styled-input input:valid~label,
+.styled-input textarea:focus~label,
+.styled-input textarea:valid~label {
+    font-size: .9em;
+    color: #0ac876;
+    top: -1.3em;
+    -webkit-transition: all 0.125s;
+    -moz-transition: all 0.125s;
+    -o-transition: all 0.125s;
+    -ms-transition: all 0.125s;
+    transition: all 0.125s;
+}
+
+.styled-input {
+    width: 100%;
+    margin: 2em 0 2em 0em;
+    position: relative;
+}
+
+.textarea-grid {
+    float: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+.styled-input label {
+    padding: 0.5em 0em;
+    position: absolute;
+    top: 0;
+    color: #2c2c2d;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+    font-weight: 600;
+    font-size: 1em;
+    display: block;
+    line-height: 1em;
+    letter-spacing: 2px;
+}
+
+.styled-input input~span,
+.styled-input textarea~span {
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #0ac876;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.125s;
+    -moz-transition: all 0.125s;
+    transition: all 0.125s;
+}
+
+.styled-input textarea~span {
+    bottom: 5px;
+}
+
+.styled-input input:focus.styled-input textarea:focus {
+    outline: 0;
+}
+
+.styled-input input:focus~span,
+.styled-input textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 0.075s;
+    -moz-transition: all 0.075s;
+    transition: all 0.075s;
+}
+
+
+/*-- //input-effect --*/
+
+.contact-form input[type="submit"] {
+    outline: none;
+    color: #FFFFFF;
+    padding: .8em 3em;
+    font-size: 1.1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #1bb580;
+    border: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #efb312;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 380px;
+    border: none;
+    margin-top: 3em;
+}
+
+div#contact {
+    background: #f4f4f4;
+}
+
+
+/*-- //contact--*/
+
+.test-grid i {
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-width: 2px;
+    border: 2px solid #1bb580;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.test-grid h4 {
+    font-size: 1.6em;
+    color: #1bb580;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 1em 0 0.2em;
+}
+
+.test-grid p {
+    font-size: 14px;
+    line-height: 2em;
+    color: #3a3a3c;
+    letter-spacing: 1px;
+}
+
+.test-grid span {
+    font-size: 0.9em;
+    color: #484747;
+    letter-spacing: 4px;
+}
+
+.test-grid2 img {
+    width: 90%;
+}
+
+.wthree_head_section.test h3 {
+    color: #111;
+}
+
+.test-grid1 {
+    padding-left: 0;
+}
+
+
+/*--footer--*/
+
+.w3l_footer {
+    background: #0b0c11;
+    padding: 4em 0;
+    position: relative;
+}
+
+.w3l_footer h2 a {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #FFF;
+    text-shadow: 3px 3px #000000;
+    font-weight: 700;
+}
+
+.w3l_footer h2 i {
+    display: block;
+    font-size: 0.8em;
+}
+
+.botttom-nav-agileits ul.nav-w3ls li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.botttom-nav-agileits ul.nav-w3ls li:hover a {
+    color: #1bb580;
+}
+
+.botttom-nav-agileits ul.nav-w3ls li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.w3l-social ul {
+    padding: 0;
+    margin: 0;
+}
+
+.w3l-social ul li {
+    display: inline-block;
+}
+
+.w3l-social ul li a {
+    color: #333;
+    text-align: center;
+}
+
+.w3l-social {
+    float: right;
+    margin-top: 2.2em;
+}
+
+ul.nav-w3ls {
+    float: left;
+    margin-top: 3em;
+}
+
+p.agileits_w3ls_copyright {
+    margin: 8em 0 0em 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+p.agileits_w3ls_copyright a {
+    color: #1bb580;
+}
+
+p.agileits_w3ls_copyright a:hover {
+    text-decoration: underline;
+}
+
+
+/*-- arrow-animation --*/
+
+.arrow-container,
+.arrow-1 {
+    width: 100px;
+    height: 100px;
+}
+
+.arrow-container {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 43%;
+}
+
+.arrow-1 {
+    background: #1bb580;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.arrow-2 {
+    width: 60px;
+    height: 60px;
+    background: #1bb580;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    display: table;
+}
+
+.arrow-2:focus {
+    text-decoration: none;
+}
+
+.arrow-2:before {
+    width: 52px;
+    height: 52px;
+    content: "";
+    border: 2px solid rgba(15, 162, 112, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.arrow-2 i.fa {
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* Custom Animate.css */
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.4, .4, .4);
+        transform: scale3d(.4, .4, .4);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.4, .4, .4);
+        transform: scale3d(.4, .4, .4);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/*-- //arrow-animation --*/
+
+
+/*--responsive--*/
+
+@media(max-width:1440px) {
+    .agile_banner_text_info h1 {
+        font-size: 7.5em;
+        letter-spacing: 4px;
+    }
+}
+
+@media(max-width:1366px) {
+    .agile_banner_text_info h1 {
+        font-size: 7em;
+    }
+    h3.agile_tittle {
+        font-size: 2.5em;
+    }
+    .wthree_head_section h2 {
+        font-size: 3em;
+    }
+    .services,
+    .team,
+    .contact-w3layouts,
+    .agile_testimonials {
+        padding: 5em 0;
+    }
+    .agile_wthree_inner_grids {
+        margin-top: 3em;
+    }
+    .w3layouts_stats_left p {
+        font-size: 3em;
+    }
+    .w3layouts_stats_left i {
+        font-size: 2.3em;
+    }
+}
+
+@media(max-width:1280px) {
+    #welcome {
+        padding: 4em 0;
+    }
+}
+
+@media(max-width:1080px) {
+    .agile_banner_text_info h1 {
+        font-size: 6em;
+    }
+    .agile_banner_text_info {
+        top: 21%;
+        left: 24%;
+    }
+    .bar-grids.w3-agile {
+        padding: 4em 4em;
+    }
+    .wthree_skills {
+        margin-top: 3em;
+    }
+    .skills {
+        min-height: 620px;
+    }
+    .bar-grids h6 {
+        font-size: 0.9em;
+    }
+    .test-grid h4 {
+        font-size: 1.5em;
+        margin: 1em 0 2.2em;
+    }
+    .contact-form.agile_inner_grids {
+        padding: 3em 3em;
+    }
+    .contact_img_agile {
+        min-height: 720px;
+    }
+    .wthree_head_section h2 {
+        font-size: 2.5em;
+    }
+    .services,
+    .team,
+    .contact-w3layouts,
+    .agile_testimonials {
+        padding: 4em 0;
+    }
+}
+
+@media(max-width:1050px) {
+    .agile_banner_text_info h1 {
+        font-size: 5.5em;
+    }
+}
+
+@media(max-width:991px) {
+    .w3-agileits-services-right {
+        padding: 0;
+        margin-top: 2em;
+    }
+    .portfolio-grids {
+        padding: 0;
+        float: left;
+    }
+    .test-grid2 img {
+        width: 29%;
+    }
+    .test-grid2 {
+        padding: 0;
+        margin-bottom: 3em;
+    }
+    .portfolio-grids {
+        padding: 0;
+        float: left;
+        width: 50%;
+    }
+    .portfolio-grid_left {
+        padding: 0;
+        float: left;
+        width: 50%;
+    }
+    .skills,
+    .contact_img_agile {
+        min-height: 450px;
+    }
+    .w3l_footer h2 a {
+        letter-spacing: 1.5px;
+        font-size: 1em;
+    }
+    .botttom-nav-agileits {
+        padding: 0;
+    }
+    .arrow-container {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 52%;
+    }
+    .about_agileinfo_grid_imgs {
+        padding: 0;
+        margin-top: 2em;
+    }
+    .w3layouts_stats_left {
+        text-align: center;
+        float: left;
+        width: 25%;
+        padding: 0;
+    }
+    .agile_banner_text_info h1 span {
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    #portfolio {
+        padding-top: 2em;
+    }
+}
+
+@media(max-width:900px) {}
+
+@media(max-width:800px) {
+    .agile_banner_text_info h1 {
+        font-size: 4.5em;
+    }
+}
+
+@media(max-width:768px) {
+    .skills,
+    .contact_img_agile {
+        min-height: 400px;
+    }
+}
+
+@media(max-width:767px) {
+    .agile_banner_text_info h1 {
+        font-size: 4em;
+    }
+    .agile_banner_text_info {
+        top: 21%;
+        left: 22%;
+    }
+    .mobile-nav-button {
+        margin: 1.5em 0em 0;
+        right: 3%;
+    }
+    .services-right-grids:nth-child(2) {
+        margin: 0em 0;
+    }
+    .services-right-grid {
+        margin-bottom: 1em;
+        padding: 0;
+    }
+    .w3-agileits-services-left {
+        min-height: 345px;
+    }
+}
+
+@media(max-width:736px) {
+    .w3layouts_stats_left h3 {
+        font-size: 0.9em;
+        letter-spacing: 2px;
+    }
+}
+
+@media(max-width:667px) {
+    h3.agile_tittle span {
+        letter-spacing: 2px;
+        display: block;
+        font-size: 15px;
+    }
+    .about h4 {
+        font-size: 1.8em;
+    }
+    .wthree_head_section h2 {
+        font-size: 2.3em;
+    }
+    h3.agile_tittle {
+        font-size: 2em;
+    }
+    .about h4 {
+        font-size: 1.6em;
+    }
+    .botttom-nav-agileits ul.nav-w3ls li {
+        margin: 0px 10px;
+    }
+    p.agileits_w3ls_copyright {
+        letter-spacing: 1px;
+    }
+    #portfolio {
+        padding-top: 1em;
+    }
+}
+
+@media(max-width:640px) {
+    .agile_banner_text_info h1 {
+        font-size: 3.8em;
+    }
+    .agile_banner_text_info h1 {
+        font-size: 3.5em;
+    }
+    .skills,
+    .contact_img_agile {
+        min-height: 311px;
+    }
+    .bar-grids.w3-agile {
+        padding: 3em 1em;
+    }
+    .services,
+    .team,
+    .contact-w3layouts,
+    .agile_testimonials,
+    .w3l_footer,
+    #welcome {
+        padding: 3em 0;
+    }
+    .contact-form.agile_inner_grids {
+        padding: 2em 1em;
+    }
+    ul.nav-w3ls {
+        float: none;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .w3l-social {
+        float: none;
+        margin-top: 1em;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .agile_banner_text_info h1 {
+        font-size: 2.6em;
+    }
+    .agile_wthree_inner_grids {
+        margin-top: 2em;
+    }
+    .stats {
+        padding: 3em 0 2em 0;
+    }
+}
+
+@media(max-width:568px) {
+    .agile_banner_text_info h1 {
+        font-size: 2.7em;
+    }
+    .w3layouts_stats_left {
+        float: left;
+        width: 50%;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    p.agileits_w3ls_copyright {
+        letter-spacing: 1px;
+        line-height: 1.9em;
+    }
+}
+
+@media(max-width:480px) {
+    .wthree_head_section h2 {
+        font-size: 2.1em;
+        line-height: 1.4em;
+    }
+    .skills,
+    .contact_img_agile {
+        min-height: 280px;
+    }
+    .w3-agileits-services-left {
+        min-height: 288px;
+    }
+    .about h4 {
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width:440px) {
+    .agile_banner_text_info h1 {
+        font-size: 2.4em;
+    }
+    .agileits-button.two a,
+    .agileits-button a {
+        padding: 0.6em 1em;
+        font-size: 1.1em;
+        margin-top: 2em;
+    }
+}
+
+@media(max-width:414px) {
+    .skills,
+    .contact_img_agile {
+        min-height: 225px;
+    }
+    h3.agile_tittle {
+        font-size: 1.8em;
+    }
+    .wthree_head_section h2 {
+        font-size: 1.8em;
+        line-height: 1.4em;
+    }
+    .botttom-nav-agileits ul.nav-w3ls li {
+        margin: 0px 3px;
+    }
+    .wthree_skills {
+        argin-top: 2em;
+    }
+    .w3l_footer h2 a {
+        letter-spacing: 1.5px;
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:384px) {
+    .agile_banner_text_info h1 {
+        font-size: 2.3em;
+    }
+    .agile_banner_text_info {
+        top: 19%;
+        left: 19%;
+    }
+    .wthree_head_section h2 {
+        font-size: 1.7em;
+        line-height: 1.4em;
+    }
+    h3.agile_tittle {
+        font-size: 1.7em;
+    }
+    .w3layouts_stats_left p {
+        font-size: 2em;
+    }
+    .mobile-nav-button {
+        margin: 0.5em 0em 0;
+        right: 2%;
+    }
+}
+
+@media(max-width:375px) {
+    .w3_agile_team_grid_info:nth-child(2) {
+        margin: 7% auto;
+    }
+    .wthree_head_section h2 {
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+    h3.agile_tittle {
+        font-size: 1.4em;
+    }
+    .about h4 {
+        font-size: 1.3em;
+    }
+    .w3layouts_stats_left i {
+        font-size: 1.5em;
+    }
+    .agile_wthree_inner_grids {
+        margin-top: 1.5em;
+    }
+}
+
+@media(max-width:320px) {
+    .agile_banner_text_info h1 {
+        font-size: 1.9em;
+    }
+}
+
+
+/*--//responsive--*/
